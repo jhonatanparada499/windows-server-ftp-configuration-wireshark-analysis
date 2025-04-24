@@ -30,11 +30,11 @@ This project covers a complete deployment and security assessment of an FTP serv
 - TCP payloads from FTP file transfers are readable using packet analysis.
 - Misconfigured firewalls can silently block transfers despite successful authentication.
 
-## Screenshots
+## Lessons Learned
+- Always avoid using FTP for sensitive data due to lack of encryption.
+- Firewalls can affect FTP **data** transfer even if **control** connection succeeds.
+- Wireshark is a powerful tool for understanding low-level network behavior.
 
-| FTP Configuration | Login Packet Capture | File Transfer Payload |
-|-------------------|----------------------|------------------------|
-
-## Sample Confidential File
-This file was used for testing FTP transfer and payload visibility.
-
+## 🗂 Original Lab Reports
+- [Lab 6-1 PDF](./Lab6-1_Report.pdf)
+- [Lab 6-2 PDF](./Lab6-2_Report.pdf)
