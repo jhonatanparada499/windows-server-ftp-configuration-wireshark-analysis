@@ -25,6 +25,10 @@ This project covers a complete deployment and security assessment of an FTP serv
 - Identified clear-text vulnerabilities in FTP using packet inspection.
 - Resolved a firewall configuration issue blocking FTP file transfers.
 
+## Screenshots
+![](screenshots/Part_1.png)
+![](screenshots/Part_2.png)
+
 ## Key Security Findings
 - FTP credentials are visible in plaintext without encryption.
 - TCP payloads from FTP file transfers are readable using packet analysis.
