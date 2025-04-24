@@ -35,6 +35,6 @@ This project covers a complete deployment and security assessment of an FTP serv
 - Firewalls can affect FTP **data** transfer even if **control** connection succeeds.
 - Wireshark is a powerful tool for understanding low-level network behavior.
 
-## 🗂 Original Lab Reports
+## Original Lab Reports
 - [Lab 6-1 PDF](Lab6-1_Report.pdf)
 - [Lab 6-2 PDF](Lab6-2_Report.pdf)
