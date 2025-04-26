@@ -21,8 +21,8 @@ FTP traffic was monitored using Wireshark, and the following was extracted:
 - Fixed a firewall configuration problem that was preventing FTP file transfers.
 
 ## Screenshots
-[](screenshots/Lab6-1.pdf)
-[](screenshots/Lab6-2.pdf)
+[](screenshots/Part_1.png)
+[](screenshots/Part_2.png)
 
 ## Important Security Discoveries
 - Without encryption, FTP credentials are accessible in plaintext.
